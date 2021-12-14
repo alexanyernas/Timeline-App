@@ -1,19 +1,21 @@
 <template>
   <v-app>
     <v-main>
+      <particles />
       <timeline />
     </v-main>
   </v-app>
 </template>
 
 <script>
-
+import Particles from './components/Particles.vue'
 import Timeline from './components/Timeline.vue'
 
 export default {
   name: 'App',
   components: {
-    Timeline
+    Timeline,
+    Particles
   }
 };
 </script>
@@ -32,7 +34,7 @@ export default {
 
 ::-webkit-scrollbar-thumb 
 {
-  background-color: #E1BEE7;
+  background-color: #9575CD;
   border-radius: .5rem;
 }
 

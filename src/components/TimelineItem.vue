@@ -6,10 +6,10 @@
             </v-avatar>
         </template>
         <template v-slot:opposite>
-            <span>{{ data.icon_title }}</span>
+            <span :style="{ color: '#FFF', fontSize: '24px' }">{{ data.icon_title }}</span>
         </template>
         <v-card 
-            class="elevation-2" 
+            class="elevation-6" 
             color="#BA68C8" 
             dark 
             shaped 
