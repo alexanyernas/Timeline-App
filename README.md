@@ -1,4 +1,4 @@
-# my-unicorn-app
+# Timeline-App
 
 ## Project setup
 ```
