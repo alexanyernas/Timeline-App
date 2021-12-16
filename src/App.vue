@@ -3,6 +3,7 @@
     <v-main>
       <!-- <particles /> -->
       <timeline />
+      <!-- <message /> -->
     </v-main>
   </v-app>
 </template>
@@ -10,12 +11,14 @@
 <script>
 // import Particles from './components/Particles.vue'
 import Timeline from './components/Timeline.vue'
+import Message from './components/Message.vue'
 
 export default {
   name: 'App',
   components: {
     Timeline,
-    // Particles
+    // Particles,
+    Message
   }
 };
 </script>

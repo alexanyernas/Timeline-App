@@ -37,7 +37,7 @@ export default {
 
 .my-mb:not(:last-child)
 {
-    margin-bottom: 240px;
+    margin-bottom: 200px;
 }
 
 @media only screen and ( max-width: 600px ) 
@@ -45,7 +45,7 @@ export default {
     .my-mb
     {
         padding-left: 0;
-        padding-right: 8px;
+        padding-right: 16px;
     }
 }
 

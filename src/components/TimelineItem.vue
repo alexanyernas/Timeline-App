@@ -5,9 +5,6 @@
                 <img :src="data.icon">
             </v-avatar>
         </template>
-        <template v-slot:opposite>
-            <span :style="{ color: '#FFF', fontSize: '24px' }">{{ data.icon_title }}</span>
-        </template>
         <v-card 
             class="elevation-6" 
             color="#BA68C8" 
