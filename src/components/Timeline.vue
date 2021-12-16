@@ -13,6 +13,7 @@
 
 <script>
 import TimelineItem from './TimelineItem.vue'
+import { textConfig } from '../config/textConfig'
 
 export default {
     name: 'Timeline',
@@ -21,32 +22,7 @@ export default {
     },
     data () {
         return {
-            items: [
-                {
-                    icon: 'https://i.pravatar.cc/64',
-                    icon_title: 'Tus eu perfecto',
-                    card_title: 'Lorem ipsum',
-                    card_content: 'Lorem ipsum dolor sit amet, no nam oblique veritus. Commune scaevola imperdiet nec ut, sed euismod convenire principes at. Est et nobis iisque percipit, an vim zril disputando voluptatibus, vix an salutandi sententiae.'
-                },
-                {
-                    icon: 'https://i.pravatar.cc/64',
-                    icon_title: 'Tus eu perfecto',
-                    card_title: 'Lorem ipsum',
-                    card_content: 'Lorem ipsum dolor sit amet, no nam oblique veritus. Commune scaevola imperdiet nec ut, sed euismod convenire principes at.'
-                },
-                {
-                    icon: 'https://i.pravatar.cc/64',
-                    icon_title: 'Tus eu perfecto',
-                    card_title: 'Lorem ipsum',
-                    card_content: 'Lorem ipsum dolor sit amet, no nam oblique veritus. Commune scaevola imperdiet nec ut, sed euismod convenire principes at.'
-                },
-                {
-                    icon: 'https://i.pravatar.cc/64',
-                    icon_title: 'Tus eu perfecto',
-                    card_title: 'Lorem ipsum',
-                    card_content: 'Lorem ipsum dolor sit amet, no nam oblique veritus. Commune scaevola imperdiet nec ut, sed euismod convenire principes at.'
-                }
-            ]
+            items: [ ...textConfig ]
         }
     }
 }
